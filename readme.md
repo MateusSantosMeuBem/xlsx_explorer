@@ -38,3 +38,7 @@ Just execute the program using yout python interpreter.
 ```sh
 python app
 ```
+To get the json, access the follow url:
+```txt
+http://127.0.0.1:5000/row/{row_index}
+```
