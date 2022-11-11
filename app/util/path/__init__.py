@@ -7,4 +7,4 @@ import os
 load_dotenv()
 
 XLSX_PATH = os.getenv('XLSX_PATH')
-SHEET_NAME = os.getenv('SHEET_NAME')
+SHEET_NAME = os.getenv('XLSX_SHEET_NAME')

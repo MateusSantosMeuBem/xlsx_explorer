@@ -22,5 +22,5 @@ def get_row(
             force_ascii=False
         )
 
-    except Exception as exception:
+    except Exception:
         return '{}'
