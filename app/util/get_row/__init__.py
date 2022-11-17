@@ -19,7 +19,8 @@ def get_row(
         return table_data()\
         .loc[row_index]\
         .to_json(
-            force_ascii=False
+            force_ascii=False,
+            date_format='iso'
         )
 
     except Exception:
